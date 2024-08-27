@@ -1,0 +1,66 @@
+/* Fuente: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+#calculadora {
+    background-color: #333;
+    max-width: 550px;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+
+}
+#display {
+    background-color: #777;
+    width: 100%;
+    overflow: hidden;
+    font-size: 6rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: rgb(115, 213, 0);
+    margin-bottom: 20px;
+}
+#teclas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 30px;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #666;
+}
+button:active{
+    background-color: #777;
+}
+.operador {
+    background-color: rgb(115, 168, 30);
+}
+.operador:hover {
+    background-color: rgb(115, 190, 30);
+}
+.operador:active {
+    background-color: rgb(115, 220, 30);
+}
+#clear {
+    grid-area: 1/1;
+}
