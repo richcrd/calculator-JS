@@ -1,12 +1,10 @@
----
-
 # Calculadora JS
 
 ## Características del Proyecto
 
 ### Frontend
-  - **HTML5, CSS3:** Estructura y estilo del sitio web.
-  - **JavaScript:** Funcionalidades para calcular(), mostrarDisplay(), limpiarDisplay().
+- **HTML5, CSS3:** Estructura y estilo del sitio web.
+- **JavaScript:** Funcionalidades para `calcular()`, `mostrarDisplay()`, `limpiarDisplay()`.
 
 ## Enlaces Externos 
 
@@ -19,5 +17,3 @@
 ## Demo
 
 Puedes ver la aplicación en acción visitando el siguiente enlace: [Calculadora JS v2 DEMO](https://richcrd.github.io/calculator-JS/)
-
----
