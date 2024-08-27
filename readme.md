@@ -4,7 +4,7 @@
 
 ## Características del Proyecto
 
-#### Frontend
+### Frontend
   - **HTML5, CSS3:** Estructura y estilo del sitio web.
   - **JavaScript:** Funcionalidades para calcular(), mostrarDisplay(), limpiarDisplay().
 
